@@ -1,0 +1,7 @@
+---
+
+- name: setup a linux test server
+  hosts: all
+  become: true
+  roles:
+    - linux-test

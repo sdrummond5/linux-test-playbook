@@ -1,0 +1,6 @@
+---
+
+- name: install collectd
+  yum:
+    name: collectd
+    state: latest
